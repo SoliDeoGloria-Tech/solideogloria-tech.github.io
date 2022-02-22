@@ -29,7 +29,7 @@ footer-links:
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:categories/:title:output_ext
+permalink: none
 
 version: v1.2.0
 
