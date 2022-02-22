@@ -1,6 +1,10 @@
 ---
 title: Logic App (Standard) and API Connections
 layout: post
+tags:
+  - Logic App
+  - API Connection
+  - ARM Template
 ---
 
 I have recently had the pleasure ([You keep using that word. I do not think it means what you think it means.][pb]) of deploying Logic App workflows on a Logic App (Standard) instance.
