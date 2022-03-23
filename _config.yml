@@ -4,14 +4,14 @@ description: Musings and learnings from my journey in tech.
 
 remote_theme: amitmerchant1990/reverie
 
-url: https://tech.dailyfuneral.net
-enforce_ssl: https://tech.dailyfuneral.net
+url: https://solideogloria.tech
+enforce_ssl: https://solideogloria.tech
 timezone: Pacific/Auckland
 locale: en_NZ
 
 author:
   name: Jerome Brown
-  url: https://tech.dailyfuneral.net
+  url: https://solideogloria.tech
   picture: /images/memoji.png
 avatar: /images/memoji.png
 

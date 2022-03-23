@@ -33,7 +33,7 @@ Which leads me to another complaint: Microsoft uses the same Logic App name for 
 Creating connections via the Azure Portal is simple.
 You create a Logic App workflow, add in a data source (either as an action or a trigger) and the portal will offer to create the API Connection on your behalf.
 And you will be presented with all the options for configuring the connection.
-![Creating an API Connection through the Azure Portal](/owretch.github.io/images/api-connections/portal-create.png)
+![Creating an API Connection through the Azure Portal](/solideogloria-tech.github.io/images/api-connections/portal-create.png)
 
 But via code, there is nothing.
 For most resources, if you manually deploy it you can export the ARM template required to redeploy them from the portal.
@@ -58,7 +58,7 @@ To achieve this follow these steps:
 5. **Before creating the connection, make sure you have the developer tools open (typically by pressing `F12`).**
 6. Click the `Create` button.
 7. In the `Network` tab of developer tools, look for a `PUT` request to an endpoint named for the type of resource you are deploying.
-   ![Network request to create a new API connection](/owretch.github.io/images/api-connections/network-request.png)
+   ![Network request to create a new API connection](/solideogloria-tech.github.io/images/api-connections/network-request.png)
 8. Open the `Payload` tab in the request and copy the ARM JSON into an editor and update as required to template the connection.
 
 But creating the API connections is only half of the battle, because then you need to tell the Logic App how to use it.
