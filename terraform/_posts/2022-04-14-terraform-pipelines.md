@@ -4,6 +4,7 @@ layout: post
 tags:
   - Azure DevOps
   - Pipeline
+  - Terraform
 ---
 
 Not everyone is privileged to be able to use Terraform Cloud for deploying their Terraform infrastructure.
